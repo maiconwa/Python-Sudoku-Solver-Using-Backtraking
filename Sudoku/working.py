@@ -10,6 +10,10 @@ board = [
     [0,4,9,2,0,6,0,0,7]
 ]
 
+def solve(bo):
+    
+
+
 def valid(bo, num, pos):
 
     # Check row
@@ -30,6 +34,8 @@ def valid(bo, num, pos):
         for j in range(box_x * 3, box_x * 3 + 3):
             if bo[i][j] == num and (i,j) != pos:
                 return False
+
+    return True
 
 def print_board(bo):
 
