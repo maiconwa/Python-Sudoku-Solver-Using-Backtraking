@@ -1,4 +1,5 @@
 # GUI.py
+# RUN THIS FILE
 import pygame
 from solver import solve, valid
 import time
@@ -6,6 +7,7 @@ pygame.font.init()
 
 
 class Grid:
+    # To change the starting board change this
     board = [
         [7, 8, 0, 4, 0, 0, 1, 2, 0],
         [6, 0, 0, 0, 7, 5, 0, 0, 9],
