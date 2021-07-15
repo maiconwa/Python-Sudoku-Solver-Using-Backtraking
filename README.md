@@ -1,4 +1,4 @@
-# Python-Sudoku-Solver-Using-Backtraking
+# Sudoku Solver
  Sudoku in Python
 
 This project is an ongoing project so it's still unfinished.
