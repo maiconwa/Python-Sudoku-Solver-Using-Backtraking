@@ -4,7 +4,7 @@ Important: This project is not yet finished.
 
 This project uses PyGame as the graphical interface. Simply run the solver.py script, and a graphical user interface (GUI) will open with the game. To play, use the combination of left mouse clicks, numeric keys on the keyboard, and the space key to record the position of the entered number.
 
-How to fun:
+How to run:
 
 Create a virtual environment with: 
 
