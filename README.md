@@ -1,6 +1,32 @@
 # Sudoku
 
+Important: This project is not yet finished.
 
-Importante: Este projeto ainda não está finalizado.
+This project uses PyGame as the graphical interface. Simply run the solver.py script, and a graphical user interface (GUI) will open with the game. To play, use the combination of left mouse clicks, numeric keys on the keyboard, and the space key to record the position of the entered number.
 
-Este projeto utiliza o PyGame como interface gráfica. Basta rodar o script solver.py e uma iterface grárica(GUI) será aberta com o jogo. Para jogar basta utilizar a combinação de clique esquerdo do mouse, teclas numéridas do teclado e utilizar a tecla espaço para gravar a posição do número digitado.
+How to fun:
+
+Create a virtual environment with: 
+
+    python -m venv venv
+
+Activate the virtual environment with:
+
+Windows venv activation
+
+    # In cmd.exe
+    venv\Scripts\activate.bat
+    # In PowerShell
+    venv\Scripts\Activate.ps1
+
+Linux and MacOS venv activation
+
+    $ source myvenv/bin/activate
+
+Install requirements.txt with:
+
+    pip install -r .\requirements.txt
+
+Run the script GUI.py.
+
+![alt text](image/sudoku.png)
